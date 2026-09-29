@@ -1,6 +1,6 @@
 # 🧠 Stroke Prediction ML
 
-![Banner](backg (1).png)
+![Banner](backg%20(1).png)
 
 > A machine learning project for predicting stroke risk using Logistic Regression and Random Forest, with a complete preprocessing pipeline, SMOTE, and saved models.
 
@@ -75,17 +75,25 @@ The saved models in `stroke_models.pkl` include the following steps:
 
 ---
 
+## 🧠 Algorithms Used
+
+- **Logistic Regression**
+- **Random Forest**
+- **SMOTE** (Synthetic Minority Over-sampling Technique) for class balancing
+
+---
+
 ## 📁 Project Structure
 
 ```text
 Stroke-Prediction-ML/
 ├── Stroke_dataset.csv
 ├── stroke_models.pkl
-├── banner.png
+├── backg (1).png
 ├── README.md
 └── requirements.txt
-If you keep the original image name, use this in the README instead of banner.png:
-![Banner](backg%20(1).png)
+Note: If you rename the image to banner.png, change the image link above to
+![Banner](banner.png)
 
 ⚙️ Installation
 Clone the repository:
@@ -142,8 +150,9 @@ probability = log_reg.predict_proba(new_data)[0, 1]
 print("Prediction:", prediction)
 print("Probability:", probability)
 
+
 🖼️ Screenshot
-https://backg (1).png/
+https://backg%20(1).png/
 
 🛠️ Technologies
 Python
@@ -160,6 +169,8 @@ Joblib
 
 Matplotlib / Seaborn
 
+🤝 Contributing
+If you have ideas to improve this project, feel free to open an Issue or submit a Pull Request.
 
 📄 License
 This project is licensed under the MIT License.
